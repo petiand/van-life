@@ -37,7 +37,7 @@ a {
     text-align:right;
 }
 .home {
-    height: 385px;
+    height: 800px;
     background-image: url(./assets/image/home-background.webp);
     background-size: cover;
     padding: 65px 25px;
@@ -59,12 +59,16 @@ a {
 }
 
 .home-btn {
-    width: 495px;
-    height: 50px;
+    width: vh;
+    height: 70px;
     border-radius: 5px;
     background-color:#FF8C38;
     text-align: center;
-    color: inherit;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 .home-footer {
@@ -158,15 +162,18 @@ a {
 .van-info {
     display: flex;
     margin-top: 10px;
-    justify-content: space-between;
 }
 
 .van-price {
     margin-left: auto;
+    text-align: end;
 }
 
 .van-day {
-    font-size: 0.8rem;    
+    font-size: 0.8rem;  
+    font-weight: 500; 
+    text-align: end;
+    margin-top: -5px;
 }
 
  .van-type { /*this is for simple type of van */
@@ -188,4 +195,46 @@ a {
 
 .van-type.luxury {
     background: #161616;
+}
+
+.detail {
+    background-color: #FFF7ED;
+    padding: 25px 25px 80px 25px;
+}
+
+.detail-back {
+    font-weight: 500;
+    font-size: 15.9462px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #201F1D;
+}
+
+.detail-img {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.detail-name {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+    color: #161616;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.detail-descrption {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+    margin-bottom: 22px;
+}
+
+.center-btn {
+    display: flex;
+    justify-content: center;
 }
